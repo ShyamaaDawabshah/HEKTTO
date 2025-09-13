@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor: #FB2E86;
+    --grayColor: #8A8FB9;
+}
+
+.btn {
+    padding: 16px 40px;
+    color: #fff;
+    border-radius: 2px;
+    font-family: Josefin Sans;
+    border: none;
+    outline: none;
+}
+
+.maincolor {
+    background-color: var(--mainColor);
+}
+
+.text-white {
+    color: #fff;
+}
+
+.greenbtn {
+    background-color: #08D15F;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.flex-colm {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: calc(100% - 320px);
+    margin: auto;
+}
+
+@media screen and (max-width :1400px){
+    .container {
+        width: calc(100% - 200px);
+    }
+    
+}
+
+@media screen  and (max-width : 920px){
+     .container {
+        width: calc(100% - 100px);
+    }
+}
+@media  screen and (max-width :500px) {
+     .container {
+        width: calc(100% - 40px);
+    }
+    
+}
+
+@media screen and (max-width : 992px){
+    .left, .right{width:100%;}
+    
+}
+@media screen and (max-width: 560px) {
+    footer {
+        text-align: center;
+    }
+
+    footer .right {
+        flex-direction: column; 
+        align-items: center;    
+        gap: 30px;             
+    }
+
+    footer .footer-info {
+        width: 100%;           
+           
+    }
+}
+
+
+.row {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.gap-2 {
+    gap: 2px;
+}
+
+.gap-23 {
+    gap: 23px;
+}
+
+.gap-6 {
+    gap: 6px;
+}
+
+.gap-42 {
+    gap: 42px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.title{
+   text-align: center; 
+   margin-bottom: 4rem;
+    margin-top:3rem;
+}
+.prouduct{
+  align-items: center;
+  gap: 10px;
+  width:calc(( 100% - 30px )/ 4 );
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+ 
+}
+.product_details{
+ display: flex; 
+ flex-direction: column; 
+ align-items: center;
+ gap: 5px; 
+}
+.product_image{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #f9f9f9;
+  padding: 3rem;
+  object-fit:cover;
+}
+.info-craft{
+    display: flex;
+   justify-content: space-between;
+width :100%;
+margin-bottom: 2rem;
+
+}
+.ul{
+   list-style-type: none;
+    gap:20px;
+}
+
